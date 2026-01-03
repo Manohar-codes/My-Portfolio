@@ -39,8 +39,8 @@ pre{
 }
 
 .profile-photo img {
-  width: 98%;
-  height: 98%;
+  width: 100%;
+  height: 100%;
   object-fit: contain; 
 }
 
@@ -156,5 +156,6 @@ footer {
   background: #161b22;
   border-top: 1px solid #21262d;
 }
+
 
 

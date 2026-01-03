@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+pre{
+	 font-size: 20px;
+}
+
+.hero {
+  display: flex;
+  padding: 60px 10%;
+  gap: 50px;
+  background: linear-gradient(135deg, #161b22, #0d1117);
+}
+
+.hero-left {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #58a6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d1117;
+}
+
+.profile-photo img {
+  width: 98%;
+  height: 98%;
+  object-fit: contain; 
+}
+
+
+.hero-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.primary {
+  background: #58a6ff;
+  color: #000;
+}
+
+.secondary {
+  border: 1px solid #58a6ff;
+  color: #58a6ff;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.hero-right h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.hero-right h3 {
+  color: #58a6ff;
+  margin: 10px 0;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.card {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #21262d;
+}
+
+.card h3 {
+  color: #58a6ff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(3, auto);   
+  gap: 18px;
+}
+
+.skills-grid span {
+  background: linear-gradient(145deg, #1b222c, #141a22);
+  padding: 10px 16px;         
+  border-radius: 999px;
+  font-size: 14px;
+  color: #e6edf3;
+  border: 1px solid #21262d;
+
+  display: flex;             
+  align-items: center;
+  justify-content: center;     
+
+  white-space: nowrap;         
+  transition: all 0.3s ease;
+}
+
+.skills-grid span:hover {
+  background: #21262d;
+  transform: translateY(-2px);
+}
+
+.cert-list li {
+  margin-bottom: 10px;
+}
+
+.cert-list a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.cert-list a:hover {
+  text-decoration: underline;
+}
+
+.contact a {
+  color: #58a6ff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #161b22;
+  border-top: 1px solid #21262d;
+}
